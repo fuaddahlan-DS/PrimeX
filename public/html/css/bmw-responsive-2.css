@@ -1,0 +1,1211 @@
+@media (min-width: 1441px) {
+	.section-bottom {
+	    width: 35%;
+	    float: right;
+	    position: absolute;
+	    right: 0;
+	    bottom: 0;
+	}
+
+	.nav.navbar-stacked a {
+	    padding: 3em 0 !important;
+	    font-size: 1.25em !important;
+	} 
+
+	.about-banner {
+	    background-color: #fff;
+	    background-image: url(../img/bmw/shorties.png);
+	    background-position: top;
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    padding: 15.5em 0 6em 0;
+	}
+
+	#showcase .portfolio-item .portfolio-link img {
+	    width: 100% !important;
+	    max-height: 22em !important;
+	}
+}
+
+@media (max-width: 1440px) {
+	.about-banner {
+	    background-color: #fff;
+	    background-image: url(../img/bmw/shorties.png);
+	    background-position: top;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    padding: 5.5em 0;
+	}
+
+	.showcase-banner .section-heading, .news-banner .section-heading {
+		font-size: 2.5em;
+	} 
+
+	.bmw-btn-blue-full { 
+	    padding: 15px; 
+	}
+
+	.bmw-btn-blue-full span {
+	    display: block;
+	    font-size: 9.5px;
+	    color: #000;
+	    margin-top: 5px;
+	}
+
+	.winners-modal .modal-content { 
+	    width: 70%; 
+	}
+
+	.btn-bmw-prev, .btn-bmw-prev:hover, .btn-bmw-prev:focus { 
+	    padding: .8em 2em; 
+	}
+}
+
+
+@media (max-width: 1366px) {
+	.about-banner {
+	    background-color: #fff;
+	    background-image: url(../img/bmw/shorties.png);
+	    background-position: top;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    padding: 5.5em 0;
+	}
+
+	.showcase-banner .section-heading, .news-banner .section-heading {
+		font-size: 2.5em;
+	}
+ 
+	#showcase .portfolio-item .portfolio-link img{
+	  width: 100% !important;
+	  max-height: 17em !important;
+	}
+}
+
+@media (max-width: 1024px) {
+	.navbar-brand>img {
+	    display: block;
+	    max-width: 12em;
+	}
+
+	.bmw-btn-blue, .bmw-btn-blue:hover, .bmw-btn-blue:focus { 
+	    width: 90%; 
+		padding: 15px;
+	}
+
+	.about-banner {
+	    padding: 1em 0;
+	}
+
+	.entry-modal .modal-content { 
+	    padding: 40px; 
+	    width: 90%; 
+	}
+
+	.news-banner, .showcase-banner {
+	    padding: 5em 0 24% 0;
+	}
+
+	.year-tabs-full {
+	    width: 70%; 
+	}
+
+	#showcase .portfolio-item .portfolio-link img { 
+	    max-height: 13.5em !important;
+	}
+
+	#showcase .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content button, 
+	#showcase .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content button:focus, 
+	#showcase .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content button:hover {
+		padding: 10pc;
+	}
+
+	.news-modal .modal-content { 
+	    width: 70%; 
+	}
+
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-white,
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-white:focus,
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-white:hover,
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-trans,
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-trans:hover,
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-trans:focus { 
+	    padding: 10px; 
+	    font-size: 10px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.relative-position {
+	  	position: relative !important;
+	}
+
+	.navbar-custom .navbar-toggle {
+	    background-color: transparent;
+	    border-color: transparent;
+	    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    text-transform: uppercase;
+	    color: white;
+	    font-size: 22px;
+	    width: 25%;
+	    float: left;
+	    padding: 0;
+	    text-align: left;
+	}
+
+	.navbar-custom {
+	    background-color: rgba(0, 0, 0, 0.27);
+	    border-color: transparent;
+	}
+
+	header .container {
+	    width: 100% !important;
+	}
+
+	.brand-module {
+	    width: 10%;
+	    margin-top: 2em;
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	}
+
+	header .intro-text {
+	    padding-top: 190px;
+	    padding-bottom: 50px; 
+	    text-align: center;
+	}
+
+	header .intro-text .intro-heading {
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    font-size: 50px;
+	    line-height: 50px;
+	    margin-bottom: 30px;
+	    text-align: center;
+	    color: #29a3da;
+	}
+
+	.bmw-btn-transparent, .bmw-btn-transparent:hover, .bmw-btn-transparent:focus  {  
+	    font-size: 13px;
+	    padding: 15px 26px;
+	    margin-bottom: 1em;
+	} 
+
+	header .intro-text .intro-lead-in span {
+	    color: #29a3da;
+	    display: block;
+	}
+
+	.navbar-nav {
+	    margin: 7.5px -15px;
+	}
+
+	.about-banner {
+	    background-color: #fff;
+	    background-size: contain;
+	    padding: 0 0;
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.about-banner .section-heading {
+	    font-size: 2.3em;
+	    margin-top: 7em;
+	    margin-bottom: 0;
+	    color: #000;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-align: center;
+	    float: none !important;
+	}
+
+	.float-xs-none {
+		float: none !important;
+	}
+
+	.graylogo {
+	    width: 50%; 
+    	margin-bottom: 1.3em;
+	}
+
+	.center-block-xs {
+	    display: block;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.width-sm-95 {
+		width: 95% !important;
+	}
+
+	#about p {
+	    margin: 2em 0;
+	    font-family: BMWTypeVTwo_Light;
+	    font-size: 1em;
+	    text-align: justify;
+	    font-weight: 700;
+	    color: #000;
+	}
+
+	.bmw-btn-blue, .bmw-btn-blue:focus, .bmw-btn-blue:hover {
+		font-size: 12px;
+	    padding: 15px 20px;
+	    margin-bottom: 0;
+	    width: 90%;
+	    text-align: center;
+	    margin-top: 1em;
+	    outline: none;
+	} 
+
+	.entry-modal .close-modal {
+	    position: absolute;
+	    width: 50px;
+	    height: 50px;
+	    background-color: transparent;
+	    top: 10px;
+	    right: 5%;
+	    cursor: pointer;
+	    z-index: 999;
+	}
+
+	.entry-modal .close-modal .lr, .winners-modal .close-modal .lr .rl{ 
+	    background-color: #000; 
+	}
+
+	.entry-modal .modal-content {
+	    border-radius: 0;
+	    background-clip: border-box;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	    border: none;
+	    min-height: 100%;
+	    padding: 30px 15px 15px;
+	    text-align: center;
+	    background: #fff;
+	    width: 90%;
+	    margin: 0 auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.entry-modal .modal-content .panel .panel-body h6{ 
+	    font-size: 15px; 
+	}
+
+	.entry-modal .modal-content .panel .panel-body { 
+	    font-size: 13px;
+	}
+
+	.btn-bmw-next, .btn-bmw-prev, .btn-bmw-submit, .btn-bmw-next:focus, .btn-bmw-prev:focus , .btn-bmw-next:hover, .btn-bmw-prev:hover, .btn-bmw-submit:hover  {
+		width: 50%;
+		padding: .8em 1em;
+		font-size: .75em;
+	}
+
+	.winners-modal .modal-content { 
+	    width: 90%; 
+	}
+
+	.carousel-inner {
+	    position: relative;
+	    width: 100%;
+	    overflow: hidden;
+	    padding: 2em;
+	    min-height: 20em;
+	}
+
+	.winners-modal .modal-content h3 { 
+	    font-size: 2em; 
+	}
+
+	.carousel-control {
+	    position: absolute;
+	    top: 50%; 
+	    width: 15%;
+	    font-size: 2.5em;
+	    color: #000; 
+	    text-shadow: 0 1px 2px rgba(0,0,0,.6); 
+	    opacity: .5;
+	    height: 10%;
+	}
+
+	.carousel-control:hover, .carousel-control:focus {
+	    position: absolute;
+	    top: 50%; 
+	    width: 15%;
+	    font-size: 2.5em;
+	    color: #29a3da; 
+	    text-shadow: 0 1px 2px rgba(0,0,0,.6); 
+	    opacity: .5;
+	    height: 10%;
+	}
+
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	    left: 0;
+	    margin-left: 0;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	    right: 0;
+	    margin-right: 0;
+	}
+
+	.winners-modal .close-modal {
+	    position: absolute;
+	    width: 50px;
+	    height: 50px;
+	    background-color: transparent;
+	    top: 10px;
+	    right: 5%;
+	    cursor: pointer;
+	    z-index: 999;
+	}
+
+	.winners-modal .close-modal .lr, .winners-modal .close-modal .lr .rl, .showcase-modal .close-modal .lr, .showcase-modal .close-modal .lr .rl{ 
+	    background-color: #000; 
+	}
+
+	.winners-modal .modal-content img {
+	    width: 70%;
+	}
+
+	.winners-modal .modal-content h6 {
+	    margin-bottom: 10px;
+	    text-align: left;
+	    font-family: BMWTypeVTwo_Light;
+	    font-weight: 700;
+	    text-transform: capitalize;
+	    font-size: 13px;
+	}
+
+	.winners-modal .modal-content h6 {
+	    margin-bottom: 10px;
+	    text-align: left;
+	    font-family: BMWTypeVTwo_Light;
+	    font-weight: 700;
+	    text-transform: capitalize;
+	    font-size: 13px;
+	}
+
+	.winners-modal .modal-content h4 {
+	    margin-bottom: 10px;
+	    text-align: left;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    font-weight: 700;
+	    color: #299bd2;
+	    text-transform: capitalize;
+	    font-size: 1em;
+	}
+
+	.bmw-btn-blue-full,.bmw-btn-blue-full:hover,.bmw-btn-blue-full:focus { 
+	    font-size: 11px;
+	    padding: 13px 20px;
+	    margin-bottom: 1.5em;
+	    width: 80%;
+	    text-align: center;
+	    margin-top: 1.5em;
+	}
+ 
+	.section-bottom {
+	    width: 80%;
+		z-index: -1;
+	}
+
+	.news-banner {
+	    background-color: #fff;
+	    background-size: contain;
+	    padding: 5.5em 0;
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.news-banner .section-heading {
+	    font-size: 2.5em;
+	    margin-bottom: 0;
+	    color: #000;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-align: center;
+	    float: none !important;
+	    margin-top: 4em;
+	}
+
+	.year-tabs {
+	    width: 50%; 
+	}
+
+	.tab-content>.active {
+	    padding: 1.3em;
+	}
+
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-white, #news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-trans { 
+	    padding: 10px; 
+	    font-size: 10px;
+	}
+
+	.news-modal .modal-content {
+	    border-radius: 0;
+	    background-clip: border-box;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	    border: none;
+	    min-height: 100%;
+	    padding: 0;
+	    text-align: center;
+	    background: #fff;
+	    width: 95%;
+	    margin: auto;
+	    margin-bottom: 2em;
+	    margin-top: 2em;
+	}
+
+	.newsphoto-modal .modal-content { 
+		width: 95%;
+		min-height: 50%;
+	}
+
+	.news-modal .modal-content h5 { 
+	    font-size: 1.3em; 
+	    width: 100%;
+	}
+
+	.news-modal .modal-content .paragraph { 
+	    -webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1; 
+	}
+
+	.year-tabs>li {
+	    float: left;
+	    margin-bottom: -1px;
+	    width: 50%;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+
+	.year-tabs-full {
+	    width: 100%;
+	}
+
+	.nav.nav-tabs.year-tabs-full>li>a {
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    font-size: 1em;
+	    color: #000;
+	    border: none !important;
+	    width: 100%;
+	    padding: .8em 1.3em ;
+	}
+
+	iframe {
+		width: 95%;
+   		margin-top: 10%;
+	}
+
+	#showcase .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content button {
+		padding: 10px 20px;
+	}
+
+	#showcase .portfolio-item .portfolio-link .portfolio-hover, #news .portfolio-item .portfolio-link .portfolio-hover{
+		display: none;
+	}
+
+	.showcase-banner {
+		background-color: #fff;
+		background-size: contain;
+		padding: 5.5em 0 2em 0;
+		width: 100%;
+		margin: 0;
+	}
+
+	.showcase-banner .section-heading {
+	    font-size: 2.5em;
+	    margin-bottom: 0em;
+	    color: #000;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-align: center;
+	    float: none !important;
+	    margin-top: 4em;
+	}
+
+	.nav.nav-tabs.year-tabs>li>a {
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    font-size: 1em;
+	    color: #000;
+	    border: none !important;
+	    padding: .39em;
+	}
+
+	#showcase .portfolio-item .portfolio-link img {
+	    max-height: 16em !important;
+	}
+
+	.flex-caption {  
+	    font-size: 13px !important;
+	}
+
+	.flex-direction-nav a { 
+	    width: 40px !important;
+	    height: 40px !important;
+	    margin: -20px 0 0;
+	    position: absolute;
+	    top: 65% !important;; 
+	}
+
+	#news .portfolio-item .panel{
+		background: #29a3da;
+		border-radius: 0;
+		color: #fff;
+		font-family: BMWTypeVTwo_Light;
+		border: 1px solid #29a3da;
+	}
+
+	#news .portfolio-item .panel h3 { 
+		font-size: 15px;
+		margin-top: 0;
+		color: white;
+		font-family: BMWTypeVTwo_LightBOLD;
+		text-transform: capitalize;
+		width: 100%; 
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	#news .portfolio-item .panel h4 {
+		font-size: 12px;
+		color: white;
+		font-family: BMWTypeVTwo_LightBOLD;
+		text-transform: capitalize;
+	}
+
+	#news .portfolio-item .panel .btn-bmw-white { 
+	    height: 40px;
+	    top: 65%;
+	    background-color: #fff;
+	    color: #29a3da;
+	    border-color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    border-radius: 40px; 
+	    width: 35%;
+	    text-align: center;
+	    margin: 0 auto;
+	    left: 10%;
+	    font-size: 10px;
+	    padding: 5px;
+	}
+
+	#news .portfolio-item .panel .btn-bmw-trans {
+	    height: 40px;
+	    top: 65%;
+	    background-color: transparent;
+	    color: #fff; 
+	    border-color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    border-radius: 40px; 
+	    width: 35%;
+	    text-align: center;
+	    margin: 0 auto;
+	    font-size: 10px;
+		padding: 5px;
+	}
+
+	.flexslider:hover .flex-direction-nav .flex-prev {
+	    opacity: 0.7;
+	    left: -3.5em !important;
+	}
+
+	.flexslider:hover .flex-direction-nav .flex-next:hover { 
+	    right: -2.8em !important;
+	}
+
+	#showcase .portfolio-item .panel{
+	    background: #29a3da;
+	    border-radius: 0;
+	    color: #fff;
+	    font-family: BMWTypeVTwo_Light;
+	    border: 1px solid #29a3da;
+	}
+
+	#showcase .portfolio-item .panel h3 { 
+	    font-size: 15px;
+	    margin-top: 0;
+	    color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: capitalize;
+	    width: 100%; 
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+
+	#showcase .portfolio-item .panel h4 {
+	    font-size: 12px;
+	    color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: capitalize;
+	}
+
+	#showcase .portfolio-item .panel .btn-bmw-white { 
+		height: 40px;
+		top: 65%;
+		background-color: #fff;
+		color: #29a3da;
+		border-color: white;
+		font-family: BMWTypeVTwo_LightBOLD;
+		text-transform: uppercase;
+		font-weight: 900;
+		border-radius: 40px; 
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		left: 10%;
+		font-size: 10px;
+		padding: 5px;
+	}
+}
+
+@media (max-width: 480px) {
+	.relative-position {
+	  	position: relative !important;
+	}
+
+	.navbar-custom .navbar-toggle {
+	    background-color: transparent;
+	    border-color: transparent;
+	    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	    text-transform: uppercase;
+	    color: white;
+	    font-size: 22px;
+	    width: 25%;
+	    float: left;
+	    padding: 0;
+	    text-align: left;
+	}
+
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { 
+	    display: none;
+	}
+
+	.navbar-custom {
+	    background-color: rgba(0, 0, 0, 0.27);
+	    border-color: transparent;
+	}
+
+	header .container {
+	    width: 100% !important;
+	}
+
+	.brand-module {
+	    width: 20%;
+	    margin-top: 1em;
+	    position: absolute; 
+	    right: 0;
+	    top: 0;
+	}
+
+	header .intro-text {
+	    padding-top: 190px;
+	    padding-bottom: 50px; 
+	    text-align: center;
+	}
+
+	header .intro-text .intro-heading {
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    font-size: 50px;
+	    line-height: 50px;
+	    margin-bottom: 30px;
+	    text-align: center;
+	    color: #29a3da;
+	}
+
+	.bmw-btn-transparent, .bmw-btn-transparent:hover, .bmw-btn-transparent:focus  {  
+	    font-size: 13px;
+	    padding: 15px 26px;
+	    margin-bottom: 1em;
+	} 
+
+	header .intro-text .intro-lead-in span {
+	    color: #29a3da;
+	    display: block;
+	}
+
+	.navbar-nav {
+	    margin: 7.5px -15px;
+	}
+
+	.about-banner {
+	    background-color: #fff;
+	    background-size: contain;
+	    padding: 0 0;
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.about-banner .section-heading {
+	    font-size: 2.3em;
+	    margin-top: 4em;
+	    margin-bottom: 0;
+	    color: #000;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-align: center;
+	    float: none !important;
+	}
+
+	.float-xs-none {
+		float: none !important;
+	}
+
+	.graylogo {
+	    width: 70%; 
+    	margin-bottom: 1.3em;
+	}
+
+	.center-block-xs {
+	    display: block;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.width-xs-95 {
+		width: 95% !important;
+	}
+
+	#about p {
+	    margin: 2em 0;
+	    font-family: BMWTypeVTwo_Light;
+	    font-size: 1em;
+	    text-align: justify;
+	    font-weight: 700;
+	    color: #000;
+	}
+
+	.bmw-btn-blue, .bmw-btn-blue:focus, .bmw-btn-blue:hover {
+		font-size: 12px;
+	    padding: 15px 20px;
+	    margin-bottom: 0;
+	    width: 90%;
+	    text-align: center;
+	    margin-top: 1em;
+	    outline: none;
+	} 
+
+	.entry-modal .close-modal {
+	    position: absolute;
+	    width: 50px;
+	    height: 50px;
+	    background-color: transparent;
+	    top: 10px;
+	    right: 5%;
+	    cursor: pointer;
+	    z-index: 999;
+	}
+
+	.entry-modal .close-modal .lr, .winners-modal .close-modal .lr .rl{ 
+	    background-color: #000; 
+	}
+
+	.entry-modal .modal-content {
+	    border-radius: 0;
+	    background-clip: border-box;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	    border: none;
+	    min-height: 100%;
+	    padding: 30px 15px 15px;
+	    text-align: center;
+	    background: #fff;
+	    width: 90%;
+	    margin: 0 auto;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.entry-modal .modal-content .panel .panel-body h6{ 
+	    font-size: 15px; 
+	}
+
+	.entry-modal .modal-content .panel .panel-body { 
+	    font-size: 13px;
+	}
+
+	.btn-bmw-next, .btn-bmw-prev, .btn-bmw-submit, .btn-bmw-next:focus, .btn-bmw-prev:focus , .btn-bmw-next:hover, .btn-bmw-prev:hover, .btn-bmw-submit:hover  {
+		width: 50%;
+		padding: .8em 1em;
+		font-size: .75em;
+	}
+
+	.winners-modal .modal-content { 
+	    width: 90%; 
+	}
+
+	.carousel-inner {
+	    position: relative;
+	    width: 100%;
+	    overflow: hidden;
+	    padding: 2em 2.5em;
+	    min-height: 20em;
+	}
+
+	.winners-modal .modal-content h3 { 
+	    font-size: 2em; 
+	}
+
+	.carousel-control {
+	    position: absolute;
+	    top: 50%; 
+	    width: 15%;
+	    font-size: 2.5em;
+	    color: #000; 
+	    text-shadow: 0 1px 2px rgba(0,0,0,.6); 
+	    opacity: .5;
+	    height: 10%;
+	}
+
+	.carousel-control:hover, .carousel-control:focus {
+	    position: absolute;
+	    top: 50%; 
+	    width: 15%;
+	    font-size: 2.5em;
+	    color: #29a3da; 
+	    text-shadow: 0 1px 2px rgba(0,0,0,.6); 
+	    opacity: .5;
+	    height: 10%;
+	}
+
+
+	.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+	    left: 0;
+	    margin-left: 0;
+	}
+
+	.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+	    right: 0;
+	    margin-right: 0;
+	}
+
+	.winners-modal .close-modal {
+	    position: absolute;
+	    width: 50px;
+	    height: 50px;
+	    background-color: transparent;
+	    top: 10px;
+	    right: 5%;
+	    cursor: pointer;
+	    z-index: 999;
+	}
+
+	.winners-modal .close-modal .lr, .winners-modal .close-modal .lr .rl, .showcase-modal .close-modal .lr, .showcase-modal .close-modal .lr .rl{ 
+	    background-color: #000; 
+	}
+
+	.winners-modal .modal-content img {
+	    width: 70%;
+	}
+
+	.winners-modal .modal-content h6 {
+	    margin-bottom: 10px;
+	    text-align: left;
+	    font-family: BMWTypeVTwo_Light;
+	    font-weight: 700;
+	    text-transform: capitalize;
+	    font-size: 13px;
+	}
+
+	.winners-modal .modal-content h6 {
+	    margin-bottom: 10px;
+	    text-align: left;
+	    font-family: BMWTypeVTwo_Light;
+	    font-weight: 700;
+	    text-transform: capitalize;
+	    font-size: 13px;
+	}
+
+	.winners-modal .modal-content h4 {
+	    margin-bottom: 10px;
+	    text-align: left;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    font-weight: 700;
+	    color: #299bd2;
+	    text-transform: capitalize;
+	    font-size: 1em;
+	}
+
+	.bmw-btn-blue-full,.bmw-btn-blue-full:hover,.bmw-btn-blue-full:focus { 
+	    font-size: 11px;
+	    padding: 13px 10px;
+	    margin-bottom: 1.5em;
+	    width: 80%;
+	    text-align: center;
+	    margin-top: 1.5em;
+	}
+
+	.width-xs-100 {
+		width: 100% !important;
+	}
+
+	.section-bottom {
+	    width: 80%;
+		z-index: -1;
+	}
+
+	.news-banner {
+	    background-color: #fff;
+	    background-size: contain;
+	    padding: 2.5em 0;
+	    width: 100%;
+	    margin: 0;
+	}
+
+	.news-banner .section-heading {
+	    font-size: 2.5em;
+	    margin-bottom: 0;
+	    color: #000;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-align: center;
+	    float: none !important;
+	    margin-top: 2em;
+	}
+
+	.year-tabs {
+	    width: 50%; 
+	}
+
+	.tab-content>.active {
+	    padding: 1.3em;
+	}
+
+	#news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-white, #news .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .btn-bmw-trans { 
+	    padding: 10px; 
+	    font-size: 10px;
+	}
+
+	.news-modal .modal-content {
+	    border-radius: 0;
+	    background-clip: border-box;
+	    -webkit-box-shadow: none;
+	    box-shadow: none;
+	    border: none;
+	    min-height: 100%;
+	    padding: 0;
+	    text-align: center;
+	    background: #fff;
+	    width: 95%;
+	    margin: auto;
+	    margin-bottom: 2em;
+	    margin-top: 2em;
+	}
+
+	.newsphoto-modal .modal-content { 
+		width: 95%;
+		min-height: 50%;
+	}
+
+	.news-modal .modal-content h5 { 
+	    font-size: 1.3em; 
+	    width: 100%;
+	}
+
+	.news-modal .modal-content .paragraph { 
+	    -webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1; 
+	}
+
+	.year-tabs>li {
+	    float: left;
+	    margin-bottom: -1px;
+	    width: 50%;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+
+	.year-tabs-full {
+	    width: 100%;
+	}
+
+	.nav.nav-tabs.year-tabs-full>li>a {
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    font-size: 1em;
+	    color: #000;
+	    border: none !important;
+	    width: 100%;
+	    padding: .30em;
+	}
+
+	iframe {
+		width: 95%;
+		height: 100%;
+		margin-top: 10%;
+	}
+
+	#showcase .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content button {
+		padding: 10px 20px;
+	}
+
+	.showcase-banner {
+		background-color: #fff;
+		background-size: contain;
+		padding: 2.5em 0;
+		width: 100%;
+		margin: 0;
+	}
+
+	.showcase-banner .section-heading {
+	    font-size: 2.5em;
+	    margin-bottom: 0em;
+	    color: #000;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-align: center;
+	    float: none !important;
+	    margin-top: 2.5em;
+	}
+
+	.nav.nav-tabs.year-tabs>li>a {
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    font-size: 1em;
+	    color: #000;
+	    border: none !important;
+	    padding: .39em;
+	}
+
+	.flex-caption {  
+	    font-size: 13px !important;
+	}
+
+	.flex-direction-nav a { 
+	    width: 40px !important;
+	    height: 40px !important;
+	    margin: -20px 0 0;
+	    position: absolute;
+	    top: 65% !important;; 
+	}
+
+	#news .portfolio-item .panel{
+		background: #29a3da;
+		border-radius: 0;
+		color: #fff;
+		font-family: BMWTypeVTwo_Light;
+		border: 1px solid #29a3da;
+	}
+
+	#news .portfolio-item .panel h3 { 
+		font-size: 15px;
+		margin-top: 0;
+		color: white;
+		font-family: BMWTypeVTwo_LightBOLD;
+		text-transform: capitalize;
+		width: 100%; 
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	#news .portfolio-item .panel h4 {
+		font-size: 12px;
+		color: white;
+		font-family: BMWTypeVTwo_LightBOLD;
+		text-transform: capitalize;
+	}
+
+	#news .portfolio-item .panel .btn-bmw-white { 
+	    height: 40px;
+	    top: 65%;
+	    background-color: #fff;
+	    color: #29a3da;
+	    border-color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    border-radius: 40px; 
+	    width: 35%;
+	    text-align: center;
+	    margin: 0 auto;
+	    left: 10%;
+	    font-size: 10px;
+	    padding: 5px;
+	}
+
+	#news .portfolio-item .panel .btn-bmw-trans {
+	    height: 40px;
+	    top: 65%;
+	    background-color: transparent;
+	    color: #fff; 
+	    border-color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    border-radius: 40px; 
+	    width: 35%;
+	    text-align: center;
+	    margin: 0 auto;
+	    font-size: 10px;
+		padding: 5px;
+	}
+
+	.flexslider:hover .flex-direction-nav .flex-prev {
+	    opacity: 0.7;
+	    left: -3.5em !important;
+	}
+
+	.flexslider:hover .flex-direction-nav .flex-next:hover { 
+	    right: -2.8em !important;
+	}
+
+	#showcase .portfolio-item .panel{
+	    background: #29a3da;
+	    border-radius: 0;
+	    color: #fff;
+	    font-family: BMWTypeVTwo_Light;
+	    border: 1px solid #29a3da;
+	}
+
+	#showcase .portfolio-item .panel h3 { 
+	    font-size: 15px;
+	    margin-top: 0;
+	    color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: capitalize;
+	    width: 100%; 
+	    white-space: nowrap;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	}
+
+	#showcase .portfolio-item .panel h4 {
+	    font-size: 12px;
+	    color: white;
+	    font-family: BMWTypeVTwo_LightBOLD;
+	    text-transform: capitalize;
+	}
+
+	#showcase .portfolio-item .panel .btn-bmw-white { 
+		height: 40px;
+		top: 65%;
+		background-color: #fff;
+		color: #29a3da;
+		border-color: white;
+		font-family: BMWTypeVTwo_LightBOLD;
+		text-transform: uppercase;
+		font-weight: 900;
+		border-radius: 40px; 
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+		left: 10%;
+		font-size: 10px;
+		padding: 5px;
+	}
+
+	.bmw-btn-blue-full span {
+	    display: block;
+	    font-size: 10px;
+	    color: #000;
+	    margin-top: 5px;
+	}
+}

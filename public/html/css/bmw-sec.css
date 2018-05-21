@@ -1,0 +1,340 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+body {
+	background-color: #000;
+	margin: 0;
+  padding: 0 !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.head {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.head {
+    background: rgba(0, 0, 0, 0.38);
+    padding: 0;
+    color: #fff;
+    width: 100%;
+}
+
+.head h1 {
+	line-height: 22px;
+	font-weight: 300;
+	font-size: 18px;
+	margin: 0;
+}
+
+
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkle {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+  z-index: -10;
+}
+
+.stars {
+  background:#000 url(http://sylvaingarnot.fr/media/stars.png) repeat top center;
+  z-index:-1;
+}
+
+.twinkle{
+  background:transparent url(http://sylvaingarnot.fr/media/twinkling.png) repeat top center;
+  z-index:-1;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+
+.portfolio-modal {
+    padding: 0 !important;
+}
+
+.hidden-btn1, .hidden-btn1:focus, .hidden-btn1:hover {
+  position: absolute;
+  top: 18%;
+  left: 0;
+  width: 35%; 
+  padding: .5em 0; 
+  color: transparent;
+  cursor: pointer;
+}
+
+.hidden-btn2, .hidden-btn2:focus, .hidden-btn2:hover {
+  position: absolute;
+  top: 26%;
+  left: 0;
+  width: 35%; 
+  padding: .5em 0; 
+  color: transparent;
+  cursor: pointer;
+}
+
+.hidden-btn3, .hidden-btn3:focus, .hidden-btn3:hover {
+  position: absolute;
+  top: 38%;
+  left: 0;
+  width: 35.5%; 
+  padding: .5em 0; 
+  color: transparent;
+  cursor: pointer;
+}
+
+.hidden-btn4, .hidden-btn4:focus, .hidden-btn4:hover {
+  position: absolute;
+  top: 44.5%;
+  left: 0;
+  width: 35%; 
+  padding: .5em 0; 
+  color: transparent;
+  cursor: pointer;
+}
+
+.hidden-btn5, .hidden-btn5:focus, .hidden-btn5:hover {
+  position: absolute;
+  top: 53%;
+  left: 0;
+  width: 35%; 
+  padding: .5em 0; 
+  color: transparent;
+  cursor: pointer;
+}
+
+.hidden-btn-row1, .hidden-btn-row1:focus, .hidden-btn-row1:hover {
+    top: 0%;
+    right: 0;
+    width: 7em;
+    padding: 0;
+    color: transparent;
+    cursor: pointer;
+    height: 2.5em;
+    background: transparent;
+    border: none;
+    outline: 0;
+}
+
+.hidden-btn-row2, .hidden-btn-row2:focus, .hidden-btn-row2:hover {
+    top: 0%;
+    right: 0;
+    width: 7em;
+    padding: 0;
+    color: transparent;
+    cursor: pointer;
+    height: 2.5em;
+    background: transparent;
+    border: none;
+    outline: 0;
+}
+
+.hidden-btn-row3, .hidden-btn-row3:focus, .hidden-btn-row3:hover {
+    top: 0%;
+    right: 0;
+    width: 10em;
+    padding: 0;
+    color: transparent;
+    cursor: pointer;
+    height: 2.5em;
+    background: transparent;
+    border: none;
+    outline: 0;
+}
+
+.hidden-btn-row4, .hidden-btn-row4:focus, .hidden-btn-row4:hover {
+    top: 0%;
+    right: 0;
+    width: 9em;
+    padding: 0;
+    color: transparent;
+    cursor: pointer;
+    height: 2.5em;
+    background: transparent;
+    border: none;
+    outline: 0;
+}
+
+.hidden-btn-row5, .hidden-btn-row5:focus, .hidden-btn-row5:hover {
+    top: 0%;
+    right: 0;
+    width: 10em;
+    padding: 0;
+    color: transparent;
+    cursor: pointer;
+    height: 2.5em;
+    background: transparent;
+    border: none;
+    outline: 0;
+}
+ 
+
+.m-t-0 {
+  margin-top: 0 !important;
+}
+
+.m-t-0half {
+  margin-top: 0.5em !important;
+}
+
+.p-t-0 {
+  padding-top: 0 !important;
+}
+
+.p-b-0 {
+  padding-bottom: 0 !important;
+}
+
+.p-r-0 {
+  padding-right: 0 !important;
+}
+
+.p-l-0 {
+  padding-left: 0 !important;
+}
+
+.relative-position {
+  position: relative !important;
+}
+
+.m-t-1 {
+  margin-top: 1em;
+}
+
+.m-b-1 {
+  margin-bottom: 1em;
+}
+
+.m-t-2 {
+  margin-top: 2em;
+}
+
+.m-b-2 {
+  margin-bottom: 2em;
+}
+
+
+@media (max-width: 480px) {
+  .p-xs-lr-0 {
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+  }
+
+  .p-xs-lr-1 {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  } 
+ 
+  .m-xs-t-0 {
+    margin-top: 0em !important;
+  }
+
+  .m-xs-b-0 {
+    margin-bottom: 0em !important;
+  }
+    
+  .m-xs-t-1 {
+    margin-top: 1em !important;
+  }
+
+  .m-xs-b-1 {
+    margin-bottom: 1em !important;
+  }
+
+  .m-xs-t-2 {
+    margin-top: 2em !important;
+  }
+
+  .m-xs-b-2 {
+    margin-bottom: 2em !important;
+  }
+
+}
+
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 1px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+

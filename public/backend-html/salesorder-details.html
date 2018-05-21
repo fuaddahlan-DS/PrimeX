@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="keywords" content="admin, dashboard, bootstrap, template, flat, modern, theme, responsive, fluid, retina, backend, html5, css, css3">
+  <meta name="description" content="">
+  <meta name="author" content="ThemeBucket">
+  <link rel="shortcut icon" href="images/primex/primex-icon.png" type="image/png">
+
+  <title>Sales Order Details - PrimeX Management</title>
+
+  <!--icheck-->
+  <link href="js/iCheck/skins/minimal/minimal.css" rel="stylesheet">
+  <link href="js/iCheck/skins/square/square.css" rel="stylesheet">
+  <link href="js/iCheck/skins/square/red.css" rel="stylesheet">
+  <link href="js/iCheck/skins/square/blue.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-datepicker/css/datepicker-custom.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-timepicker/css/timepicker.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-colorpicker/css/colorpicker.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-daterangepicker/daterangepicker-bs3.css" />
+  <link rel="stylesheet" type="text/css" href="js/bootstrap-datetimepicker/css/datetimepicker-custom.css" />
+
+  <!--dashboard calendar-->
+  <link href="css/clndr.css" rel="stylesheet">
+
+
+  <!--common-->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/style-responsive.css" rel="stylesheet">
+
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body class="sticky-header">
+
+<section>
+    <!-- left side start-->
+    <div class="left-side sticky-left-side">
+
+        <!--logo and iconic logo start-->
+        <div class="logo">
+            <a href="index.html"><img src="images/primex/primexlogo.png" alt="PrimeX Auto Detailing" class="img-responsive"></a>
+        </div>
+
+        <div class="logo-icon text-center">
+            <a href="index.html"><img src="images/primex/primex-icon.png" alt="PrimeX Auto Detailing" class="img-responsive"></a>
+        </div>
+        <!--logo and iconic logo end-->
+
+        <div class="left-side-inner">
+ 
+
+            <!--sidebar nav start-->
+            <ul class="nav nav-pills nav-stacked custom-nav">
+                <li class="menu-list"><a href="index.html"><i class="fa fa-clock-o"></i> <span>Service Queue</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="index.html"> Pending</a></li>
+                        <li><a href="completed.html"> Completed</a></li>
+                    </ul>
+                </li>
+ 
+
+                <li class="active"><a href="members.html"><i class="fa fa-users"></i> <span>Members</span></a></li>
+
+                <li class="menu-list nav-active"><a href=""><i class="fa fa-usd"></i> <span>Sales</span></a>
+                    <ul class="sub-menu-list">
+                        <li class="active"><a href="salesorder.html"> Sales Order</a></li> 
+                    </ul>
+                </li>
+ 
+                <li class="menu-list"><a href=""><i class="fa fa-book"></i> <span>Catalogue</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="merchandise.html"> Merchandise</a></li>
+                        <li><a href="services.html"> Services</a></li> 
+                    </ul>
+                </li>
+ 
+
+                <li class="menu-list"><a href=""><i class="fa fa-bar-chart"></i> <span>Reports</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#"> Sales Report</a></li>
+                        <li><a href="#"> Service Report</a></li>
+                        <li><a href="#"> Technician Report</a></li>
+                        <li><a href="#"> Referral Report</a></li>
+                    </ul>
+                </li>
+
+                <li class="menu-list"><a href=""><i class="fa fa-cogs"></i> <span>Settings</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="service-cat.html"> Service Category</a></li>
+                        <li><a href="vec-type.html"> Vehicle Type</a></li>
+                        <li><a href="uom.html"> Unit of Measurement</a></li>
+                        <li><a href="color.html"> Color</a></li> 
+                    </ul>
+                </li>
+                <li class="menu-list"><a href=""><i class="fa fa-cog"></i> <span>Account Settings</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="roles.html"> Roles</a></li>
+                        <li><a href="users.html"> Users</a></li>
+                        <li><a href="branch.html"> Branch</a></li> 
+                    </ul>
+                </li>
+                <!-- <li class="menu-list"><a href="#"><i class="fa fa-user-circle"></i> <span>Administrator</span></a>
+                    <ul class="sub-menu-list">
+                        <li><a href="#.html"> My Profile</a></li> 
+                    </ul>
+                </li>
+ 
+                 
+                <li><a href="login.html"><i class="fa fa-sign-out"></i> <span>Logout</span></a></li> -->
+
+            </ul>
+            <!--sidebar nav end-->
+
+        </div>
+    </div>
+    <!-- left side end-->
+    
+    <!-- main content start-->
+    <div class="main-content" >
+
+        <!-- header section start-->
+        <div class="header-section">
+
+            <!--toggle button start-->
+            <a class="toggle-btn"><i class="fa fa-bars"></i></a>
+            <!--toggle button end-->
+
+            <!--search start-->
+           <!--  <form class="searchform" Top Up="index.html" method="post">
+                <input type="text" class="form-control" name="keyword" placeholder="Search here..." />
+            </form> -->
+            <!--search end-->
+
+            <!--notification menu start -->
+            <div class="menu-right">
+                <ul class="notification-menu"> 
+                    <li>
+                        <a href="#" class="btn btn-default btn-block dropdown-toggle" data-toggle="dropdown">
+                            <img src="images/primex/primex-icon.png" alt="" />
+                            Administrator
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                            <li><a href="myprofile.html"><i class="fa fa-user"></i>  Profile</a></li> 
+                            <li><a href="login.html"><i class="fa fa-sign-out"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+            <!--notification menu end -->
+
+        </div>
+        <!-- header section end-->
+
+
+
+         <!-- page heading start-->
+        <div class="page-heading">
+            <h3>
+                Sales Order Number
+            </h3>
+            <ul class="breadcrumb">
+                <li>
+                    <a href="index.html">Dashboard</a>
+                </li>
+                <li>
+                    <a href="salesorder.html">Sales Order</a>
+                </li>
+                <li class="active"> SO000001 </li>
+            </ul>
+            
+        </div>
+        <!-- page heading end-->
+
+        <!--body wrapper start-->
+        <div class="wrapper"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="col-xs-12 col-sm-9 col-md-9"> 
+                                <ul class="p-info">
+                                    <li>
+                                        <div class="title">Date</div>
+                                        <div class="desk">01/01/2017</div>
+                                    </li>
+                                    <li>
+                                        <div class="title">Sales Order No.</div>
+                                        <div class="desk">SO000001</div>
+                                    </li>
+                                    <li>
+                                        <div class="title">Name</div>
+                                        <div class="desk">Ahdesya Harindran</div>
+                                    </li>
+                                    <li>
+                                        <div class="title">Car Number</div>
+                                        <div class="desk">VAE990</div>
+                                    </li>
+                                    <li>
+                                        <div class="title">Current Balance</div>
+                                        <div class="desk">RM 200.00</div>
+                                    </li> 
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3"> 
+                                <div class="row">  
+                                    <div class="col-md-12 col-xs-12 col-sm-12  m-bot15"> 
+                                        <a type="button" class="btn btn-blue pull-right btn-block" data-toggle="modal" href="#updateso"><i class="fa fa-pencil m-r-1"></i> Update Details</a> 
+                                    </div> 
+                                    <div class="col-md-12 col-xs-12 col-sm-12  m-bot15"> 
+                                        <a type="button" class="btn btn-red-primex pull-right btn-block" ><i class="fa fa-print m-r-1"></i> Print Receipt</a> 
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="panel">
+                        <div class="panel-body">  
+                            <div class="col-md-12 col-xs-12">
+                                <header class="panel-heading custom-tab m-xs-t-0">
+                                    <ul class="nav nav-tabs nav-justified">
+                                        <li class="active">
+                                            <a href="#receipt" data-toggle="tab">Receipt</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="#exprop" data-toggle="tab">Extended Properties</a>
+                                        </li>  
+                                    </ul>
+                                </header>
+                                <div class="panel-body">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="receipt">
+                                            <div class="row">
+                                                <div class="col-md-12 col-xs-12 col-sm-12 m-xs-b-1">
+                                                    <div class="col-md-2 col-xs-6 col-sm-4 p-l-0"><label>Receipt Number</label></div>
+                                                    <div class="col-md-10 col-xs-6 col-sm-8 p-l-0 word-wrap">R00001</div>
+                                                </div>
+
+                                                <div class="col-md-12 col-xs-12 col-sm-12 m-xs-b-1">
+                                                    <div class="col-md-2 col-xs-6 col-sm-4 p-l-0"><label>Issue Date</label></div>
+                                                    <div class="col-md-10 col-xs-6 col-sm-8 p-l-0 word-wrap">01/01/2017</div>
+                                                </div> 
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xs-12 col-sm-12 col-md-12 p-xs-l-0 p-xs-r-0">
+                                                    <section>
+                                                        <table class="table table-resp table-bordered">
+                                                            <thead class="cf">
+                                                            <tr>
+                                                                <th>Payment Type</th>
+                                                                <th>Service</th>
+                                                                <th>Total Amount</th>
+                                                                <th>Closed By</th>  
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Membership</td>
+                                                                    <td>Washing</td>
+                                                                    <td>RM11.00</td>
+                                                                    <td>Administrator</td> 
+                                                                </tr> 
+                                                            </tbody>
+                                                        </table>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="exprop">
+                                            <div class="row">
+                                                <div class="col-md-12 col-xs-12 col-sm-12 m-xs-b-1">
+                                                    <div class="col-md-2 col-xs-6 col-sm-4 p-l-0"><label>Sales Advisor</label></div>
+                                                    <div class="col-md-10 col-xs-6 col-sm-8 p-l-0 word-wrap">Chris</div>
+                                                </div>
+
+                                                <div class="col-md-12 col-xs-12 col-sm-12 m-xs-b-1">
+                                                    <div class="col-md-2 col-xs-6 col-sm-4 p-l-0"><label>Technician</label></div>
+                                                    <div class="col-md-10 col-xs-6 col-sm-8 p-l-0 word-wrap">Kevic</div>
+                                                </div> 
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--body wrapper end-->
+
+        <!--footer section start-->
+        <footer>
+            2017 &copy; PrimeX Auto Detailing
+        </footer>
+        <!--footer section end-->
+
+          <!-- Modal -->
+        <div aria-hidden="true" aria-labelledby="updatesoLabel" role="dialog" tabindex="-1" id="updateso" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Update Sales Order</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <form class="form-horizontal adminex-form" method="get">
+
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-6 col-xs-5 col-sm-5 control-label">Sales Order No.</label>
+                                            <div class="col-xs-6 col-sm-7">
+                                                <label class="control-label">SO000001</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-6 col-xs-5 col-sm-5 control-label">Name</label>
+                                            <div class="col-xs-6 col-sm-7">
+                                                <label class="control-label">AHDESYA HARINDRAN</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-6 col-xs-5 col-sm-5 control-label">Phone Number</label>
+                                            <div class="col-xs-6 col-sm-7">
+                                                <label class="control-label">016-6651496</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-5 col-sm-5 control-label">Car Number</label>
+                                            <div class="col-sm-7">
+                                                <select class="form-control m-bot15">
+                                                    <option>VAE990</option>
+                                                    <option>BLE9900</option>
+                                                    <option>WWT6900</option>
+                                                    <option>WC990V</option>
+                                                </select>
+                                            </div>
+                                        </div> 
+
+                                        <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-5 col-sm-5 control-label">Date</label>
+                                            <div class="col-sm-7">
+                                                <input class="form-control form-control-inline input-medium default-date-picker"  size="16" type="text" value="" />
+                                            </div>
+                                        </div> 
+
+                                        <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-5 col-sm-5 control-label">Closed By</label>
+                                            <div class="col-sm-7">
+                                                <select class="form-control m-bot15">
+                                                    <option>Name</option>
+                                                    <option>Name</option> 
+                                                </select>
+                                            </div>
+                                        </div>  
+
+                                         <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-5 col-sm-5 control-label">Sales Advisor</label>
+                                            <div class="col-sm-7">
+                                                <select class="form-control m-bot15">
+                                                    <option>Sales Advisor</option>
+                                                    <option>Sales Advisor</option> 
+                                                </select>
+                                            </div>
+                                        </div>  
+
+                                        <div class="form-group p-l-1 p-r-1">
+                                            <label class="col-xs-5 col-sm-5 control-label">Technician</label>
+                                            <div class="col-sm-7">
+                                                <select class="form-control m-bot15"> 
+                                                    <option>Sales Advisor</option>
+                                                    <option>Sales Advisor</option>
+                                                </select>
+                                            </div>
+                                        </div>  
+                                    </div>  
+
+                                </div>
+
+                                <hr>
+
+                                <div class="row"> 
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                        <section>
+                                            <table class="table table-resp table-bordered">
+                                                <thead class="cf">
+                                                <tr>
+                                                    <th>Service</th>
+                                                    <th class="numeric">Unit Price</th>
+                                                    <th>Quantity</th> 
+                                                    <th>Discount (%)</th>
+                                                    <th>Total Amount ($)</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                     <tr>
+                                                        <td>
+                                                            <select class="form-control m-bot15">
+                                                                <option>Service Code - Name</option>
+                                                                <option>Service Code - Name</option>
+                                                                <option>Service Code - Name</option>
+                                                                <option>Service Code - Name</option>
+                                                            </select>
+                                                        </td>
+                                                        <td>
+                                                           <div class="input-group m-bot15">
+                                                                <span class="input-group-addon">RM</span>
+                                                                <input type="text" class="form-control text-right" value="100">
+                                                                <span class="input-group-addon ">.00</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" class="form-control" placeholder="Quantity">
+                                                        </td>  
+                                                        <td>
+                                                            <input type="text" class="form-control" placeholder="Discount (%)">
+                                                        </td>
+                                                        <td>
+                                                            <input type="text" class="form-control" class="Total Amount ($)">
+                                                        </td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </section>
+                                    </div> 
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-md-4 col-xs-12 pull-right">
+                                        <form class="form-horizontal adminex-form" method="get">
+                                            <div class="form-group p-l-0 p-r-0">
+                                                <label class="col-sm-5 col-sm-5 control-label">Net Total</label>
+                                                <div class="col-sm-7">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div> 
+
+                                            <div class="form-group p-l-0 p-r-0">
+                                                <label class="col-sm-5 col-sm-5 control-label">GST (6%)</label>
+                                                <div class="col-sm-7">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div> 
+
+                                            <div class="form-group p-l-0 p-r-0">
+                                                <label class="col-sm-5 col-sm-5 control-label">Paid</label>
+                                                <div class="col-sm-7">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div> 
+
+                                            <div class="form-group p-l-0 p-r-0">
+                                                <label class="col-sm-5 col-sm-5 control-label">Due</label>
+                                                <div class="col-sm-7">
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div> 
+                                        </form>
+                                    </div> 
+                                </div>
+
+
+                                <div class="form-group"> 
+                                    <div class="col-sm-4 col-sm-offset-4 text-center">
+                                        <button type="button" class="btn btn-red-primex btn-block" >Save</button>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+
+
+
+    </div>
+    <!-- main content end-->
+</section>
+
+<!-- Placed js at the end of the document so the pages load faster -->
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.min.js"></script>
+<script src="js/jquery.nicescroll.js"></script>
+
+<!--easy pie chart-->
+<script src="js/easypiechart/jquery.easypiechart.js"></script>
+<script src="js/easypiechart/easypiechart-init.js"></script>
+
+<!--Sparkline Chart-->
+<script src="js/sparkline/jquery.sparkline.js"></script>
+<script src="js/sparkline/sparkline-init.js"></script>
+
+<!--icheck -->
+<script src="js/iCheck/jquery.icheck.js"></script>
+<script src="js/icheck-init.js"></script>
+
+<script type="text/javascript" src="js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-daterangepicker/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-daterangepicker/daterangepicker.js"></script>
+<!--common scripts for all pages-->
+<script src="js/scripts.js"></script>
+
+
+</body>
+</html>

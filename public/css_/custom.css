@@ -1,0 +1,20 @@
+.m-b-0 {
+	margin-bottom: 0;
+}
+
+.m-b-0half {
+	margin-bottom: 0.5em !important;
+}
+
+.m-b-1 {
+	margin-bottom: 1em !important;
+}
+
+.m-b-1half {
+	margin-bottom: 1.5em !important;
+}
+
+.red-info {
+	color: red;
+	font-weight: 600;
+}
